@@ -2,8 +2,7 @@ from google import genai
 from google.genai import types
 import streamlit as st
 
-client = genai.Client(api_key="Your_Api_key")
-
+client = genai.Client(api_key=st.secrets["GEMINI_API_KEY"])
 st.title("SmartCart - AI Gadget Shopping Assistant")
 
 st.write("Your AI guide for laptops, smartphones, smartwatches, and gadgets.")
@@ -40,7 +39,7 @@ available_categories = {
 
 }
 
-query = st.chat_input("Ask me about laptops")
+query = st.chat_input("Ask me about gadgets")
 
 if query:
 
