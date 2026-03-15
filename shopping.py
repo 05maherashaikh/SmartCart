@@ -1,6 +1,6 @@
 from google import genai
 from google.genai import types
-import streamlit as st
+import streamlit as st 
 
 client = genai.Client(api_key=st.secrets["GEMINI_API_KEY"])
 st.title("SmartCart - AI Gadget Shopping Assistant")
