@@ -2,7 +2,7 @@ from google import genai
 from google.genai import types
 import streamlit as st
 
-client = genai.Client(api_key="AIzaSyBX1KYZBY-2wFULqNMaTa_8sIUuHn-QiU4")
+client = genai.Client(api_key="Your_Api_key")
 
 st.title("SmartCart - AI Gadget Shopping Assistant")
 
