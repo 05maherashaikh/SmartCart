@@ -1,5 +1,10 @@
  🛒 SmartCart - AI Shopping Assistant
 
+🌐 Live Demo
+🚀 Try the app here:  
+👉 https://smartcart-app.streamlit.app
+
+
 Overview :
 
 SmartCart is an AI-powered shopping assistant built using Streamlit.
@@ -41,7 +46,7 @@ It allows users to explore gadgets, manage a shopping cart, and get intelligent 
  1. Clone the repository
 
 ```bash
-git clone 05maherashaikh/SmartCart 
+git clone https://github.com/05maherashaikh/SmartCart 
 cd smartcart
 ```
 
