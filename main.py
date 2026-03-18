@@ -2,7 +2,7 @@ from google import genai
 from google.genai import types
 import streamlit as st
 
-client = genai.Client(api_key=["GEMINI_API_KEY"])
+client = genai.Client(api_key=st.secrets["GEMINI_API_KEY"])
 
 # -------- SESSION STATE --------
 if "user" not in st.session_state:
